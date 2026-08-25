@@ -8,7 +8,7 @@ const messages = [
   { id: 3, author: "Priya", body: "I updated the notes." },
 ];
 
-app.get("/messages", (request: Request, response: Response) => {
+app.get("/messages", (request, response) => {
   const limit = Number(request.query.limit ?? messages.length);
   response.json(messages.slice(0, limit));
 });
