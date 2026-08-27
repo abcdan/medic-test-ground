@@ -1,0 +1,11 @@
+{
+  "name": "Taqueria Vista",
+  "people": ["ana", "ben", "cleo"],
+  "items": [
+    {"label": "al pastor", "price": 14.50, "shared_by": ["ana"]},
+    {"label": "carnitas", "price": 15.00, "shared_by": ["ben"]},
+    {"label": "veggie bowl", "price": 13.25, "shared_by": ["cleo"]},
+    {"label": "chips + guac", "price": 9.00, "shared_by": null},
+    {"label": "horchata pitcher", "price": 11.00, "shared_by": ["ana", "cleo"]}
+  ]
+}
